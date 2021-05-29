@@ -1,0 +1,75 @@
+#mainNavbar .nav-link:hover,#mainNavbar i:hover{
+	color:white !important;
+}
+#mainNavbar .navbar-brand i{
+	font-size:1.5em;
+}
+#mainNavbar .navbar-brand{
+	margin-top:-8px;
+}
+.nav-link{
+	font-size:1.1em;
+	color:rgba(255, 255, 255,0.85) !important;
+}
+.active{
+	font-weight:600;
+	color:white !important;
+}
+#mainNavbar .btn{
+	font-weight: 600;
+}
+i,svg{
+	color:#ffffffd9;
+	font-size:1.1em;
+}
+#mainSection h1{
+	font-size:calc(1.525rem + 3.3vw);
+}
+#mainSection .lead{
+	font-weight: 400;
+	color: #495057;
+}
+#mainSection button{
+	font-weight:500;
+	padding:12px 32px;
+}
+#mainSection{
+	position: relative;
+	background:linear-gradient(165deg, #f7f5fb 50%, #fff 50%);
+}
+.badge{
+	border-radius:.75rem;
+}
+code{
+	color:#212529;
+	white-space: nowrap;
+}
+.code_outer{
+	position: relative;
+}
+.code_outer button{
+	position: absolute;
+	right:10px;
+	top:10px;
+}
+/* #jsDeliver .code_outer,#installation .code{
+	position: relative;
+}
+#jsDeliver .code_outer button,#installation .code button{
+	position: absolute;
+	right:10px;
+	top:10px;
+} */
+.code{
+	overflow-x: auto;
+}
+
+footer a{
+	color:#495057;
+	font-weight: 600;
+}
+@media(max-width:768px){
+	footer p{
+		text-align: center;
+	}
+}
